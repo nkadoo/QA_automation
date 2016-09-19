@@ -1,0 +1,8 @@
+To run the file in non-GUI mode, use following command which will create a new Results folder with graph reports.
+
+./jmeter.sh -n -t /path/to/your/jmx_file -l /path/to/jtl_file -e -o /path/to/Results_folder
+
+Update above command with the path where you have your jmx file. Give path where you want your jtl file to be created and path to folder
+where you want to create reports folder.
+
+Once your test is run, you will see a reports file created under the results folder.

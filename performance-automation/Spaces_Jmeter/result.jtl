@@ -1,0 +1,27 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,grpThreads,allThreads,Latency,IdleTime
+1473795698869,1091,Spaces Home page,200,OK,Spaces Test cases 1-1,text,true,,2762,1,1,1090,0
+1473795699961,1067,login,200,OK,Spaces Test cases 1-1,text,true,,2048,1,1,1067,0
+1473795701063,51,user details,200,OK,Spaces Test cases 1-1,text,true,,844,1,1,51,0
+1473795701116,179,Go to Send page,201,Created,Spaces Test cases 1-1,text,true,,1012,1,1,179,0
+1473795701297,566,Upload file 1,200,OK,Spaces Test cases 1-1,text,true,,997,1,1,566,0
+1473795701864,163,Send the file,200,OK,Spaces Test cases 1-1,,true,,477,1,1,163,0
+1473795702028,1304,Go to Tracker Page,200,OK,Spaces Test cases 1-1,text,true,,22523,1,1,1297,0
+1473795703349,133,User spaces,200,OK,Spaces Test cases 1-1,text,true,,1417,1,1,133,0
+1473795703483,364,Create new space,201,Created,Spaces Test cases 1-1,text,true,,1014,1,1,364,0
+1473795703849,70,space name,200,OK,Spaces Test cases 1-1,,true,,477,1,1,70,0
+1473795703920,93,Get details of space,200,OK,Spaces Test cases 1-1,text,true,,915,1,1,93,0
+1473795704014,577,Upload file 1,200,OK,Spaces Test cases 1-1,text,true,,996,1,1,577,0
+1473795704591,677,Upload file 2,200,OK,Spaces Test cases 1-1,text,true,,996,1,1,677,0
+1473795705269,562,Upload file 3,200,OK,Spaces Test cases 1-1,text,true,,996,1,1,562,0
+1473795705832,523,Upload file 4,200,OK,Spaces Test cases 1-1,text,true,,996,1,1,523,0
+1473795706355,522,Upload file 5,200,OK,Spaces Test cases 1-1,text,true,,996,1,1,522,0
+1473795706878,522,Link file from Dropbox,200,OK,Spaces Test cases 1-1,text,true,,1003,1,1,522,0
+1473795707400,190,Download file from space,200,OK,Spaces Test cases 1-1,text,true,,27725,1,1,185,0
+1473795707590,1131,Download all files from spaces,200,OK,Spaces Test cases 1-1,text,true,,191702,1,1,355,0
+1473795708723,113,Share a space,200,OK,Spaces Test cases 1-1,text,true,,669,1,1,113,0
+1473795708837,61,Send space share email,200,OK,Spaces Test cases 1-1,,true,,477,1,1,61,0
+1473795708898,156,Add space to collection,201,Created,Spaces Test cases 1-1,text,true,,1030,1,1,156,0
+1473795709055,88,Get details of space,200,OK,Spaces Test cases 1-1,text,true,,915,1,1,88,0
+1473795709144,66,Delete space,200,OK,Spaces Test cases 1-1,,true,,477,1,1,66,0
+1473795709210,157,Delete collection,200,OK,Spaces Test cases 1-1,text,true,,739,1,1,157,0
+1473795709368,75,logout,200,OK,Spaces Test cases 1-1,text,true,,564,1,1,75,0
