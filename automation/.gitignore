@@ -1,0 +1,19 @@
+
+
+# /
+.project
+.settings
+.metadata
+.classpath
+.DS_Store
+target
+test-output/
+
+#Idea related
+.idea/dictionaries
+.idea/inspectionProfiles
+.idea/libraries
+.idea/checkstyle-idea.xml
+.idea/dataSources.local.xml
+.idea/workspace.xml
+.idea/uiDesigner.xml

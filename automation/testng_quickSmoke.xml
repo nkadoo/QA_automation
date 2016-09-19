@@ -1,0 +1,124 @@
+<suite name="Test Cases">
+	<test name="Test" preserve-order="true">
+		<groups>
+			<run>
+				<exclude name="positive" />
+				<exclude name="negative" />
+				<include name="smoke" />
+			</run>
+		</groups>
+
+	   <listeners>
+	        <listener class-name="com.mvn.automation.ExtentReporterNG" />
+	    </listeners>
+	    
+		<!-- <test name="Chrome Test" preserve-order="true">
+			<parameter name="browserType" value="chrome" />
+			<parameter name="env" value="prod" /> -->
+			
+		<test name="Firefox Test" preserve-order="true">
+			<parameter name="browserType" value="Firefox" />
+			<parameter name="env" value="prod" />
+
+			<classes>
+				<class name="com.mvn.automation.SignUpTest">
+					<methods>
+						<include name="signUpNewUser" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.CreateSpaceTest">
+					<methods>
+						<include name="createNewSpace" />
+						<include name="addMoreFilestoSpace" />
+						<include name="deleteSpace" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.UpgradeAccountTest">
+					<methods>
+						<include name="upgradeMonthly" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.ShareASpaceTest">
+					<methods>
+						<include name="shareAPublicSpaceCanEdit" />
+						<include name="sharePrivateSpaceCanEdit" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.MenuOptionsTest">
+					<methods>
+						<include name="downloadFiles" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.AdminSignInTest">
+					<methods>
+						<include name="AdminSignInUser" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.PasswordUpdateTest">
+					<methods>
+						<include name="resetUserPassword" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.SpaceFileDetails">
+					<methods>
+						<include name="approveFile" />
+						<include name="mentionUser" />
+						<include name="deleteFile" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.DashboardTest">
+					<methods>
+						<include name="dashboardCreation" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.CreateSpaceViaOauthTest">
+					<methods>
+ 						<include name="createSpaceGoogleOauth" />
+ 						<include name="disconnectGoogleOauth" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.QuotaTest">
+					<methods>
+						<include name="freeUser_dailyShareQuota" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.RecipientDownloadTest">
+					<methods>
+						<include name="RecipientDownloadWithAllOptions" />						
+					</methods>
+				</class>
+				<class name="com.mvn.automation.UplinkTest">
+					<methods>
+						<include name="reusePreviousUplinkUrl" />
+						<include name="sendToProUplinkAsGuest" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.GuestCommentingTest">
+					<methods>
+						<include name="guestComment" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.CollectionsTest">
+					<methods>
+						<include name="newCollection" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.PresentationModeTest">
+					<methods>
+						<include name="mixedModePresentation" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.SamlTest">
+					<methods>
+						<include name="samlLogIn" />
+					</methods>
+				</class>
+				<class name="com.mvn.automation.TrackerTest">
+					<methods>
+						<include name="trackSent" />
+					</methods>
+				</class>
+			</classes>
+		</test>		
+	</test>
+</suite>
